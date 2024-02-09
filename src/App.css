@@ -21,11 +21,12 @@
   font-weight: lighter;
   line-height: 100%;
   letter-spacing: 2px;
+  font-variant-caps: small-caps;
 }
 
-#brand-name-col span {
+/* #brand-name-col span {
   font-size: large;
-}
+} */
 
 #mottos-row {
   margin-top: 60px;
@@ -37,7 +38,7 @@
   font-family: 'Dancing Script', cursive;
   font-size: small;
   font-weight: bold;
-  color: tan;
+  color: orangered;
 }
 
 #motto-2-col {
@@ -45,6 +46,10 @@
   font-size: 28px;
   font-weight: 500;
   color: gray;
+}
+
+#items-row {
+  width: 100%;
 }
 
 .item-row {
