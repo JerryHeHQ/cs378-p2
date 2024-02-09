@@ -8,21 +8,21 @@ import React from 'react';
 const MenuItem = ({ object }) => {
   return (
     <div className='row item-row'>
-      <div className='col-auto p-0 item-picture-col'>
+      <div className='col-auto p-0'>
         <img src={"images/" + object.imageName} className='item-picture-img'></img>
       </div>
       <div className='col item-info-col'>
-        <div className='row item-name-row'>
+        <div className='row'>
           <div className='col item-name-col'>
             {object.title}
           </div>
         </div>
-        <div className='row item-description-row'>
+        <div className='row'>
           <div className='col item-description-col'>
             {object.description}
           </div>
         </div>
-        <div className='row item-buy-row'>
+        <div className='row'>
           <div className='col item-price-col'>
             {"$" + object.price}
           </div>

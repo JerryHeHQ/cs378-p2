@@ -94,15 +94,15 @@ const brandMottos = {
 function App() {
   return (
     <div className='container'>
-      <div className='row' id='main-row'>
-        <div className='col d-flex flex-column align-items-center p-0' id='main-col'>
+      <div className='row'>
+        <div className='col d-flex flex-column align-items-center p-0'>
 
           <BrandSection object = {brandInfo}/>
 
           <MottoSection object = {brandMottos}/>
 
           <div className='row' id='items-row'>
-            <div className='col' id='items-col'>
+            <div className='col'>
               {menuItems.map((menuItem) => (
                 <MenuItem object = {menuItem}/>
               ))}
@@ -112,20 +112,6 @@ function App() {
         </div>
       </div>
 
-
-
-
-
-
-      {/* <MenuItem object = {menuItems[0]}/> */}
-      {/* <h1>Menu</h1>
-      <div className="menu">
-        
-
-        {menuItems.map((menuItem) => (
-          <MenuItem title={menuItem.title}/>
-        ))}
-      </div> */}
     </div>
   );
 }
