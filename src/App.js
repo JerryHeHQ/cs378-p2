@@ -98,12 +98,12 @@ function App() {
             <div className='col' id='mottos-col'>
               <div className='row' id='motto-1-row'>
                 <div className='col' id='motto-1-col'>
-                  Motto 1
+                  Motto 1 Motto 1 Motto 1 Motto 1 Motto 1 Motto 1
                 </div>
               </div>
               <div className='row' id='motto-2-row'>
                 <div className='col' id='motto-2-col'>
-                  Motto 2
+                  Motto 2 Motto 2 Motto 2
                 </div>
               </div>
             </div>
@@ -111,6 +111,60 @@ function App() {
 
           <div className='row' id='items-row'>
             <div className='col' id='items-col'>
+              <div className='row item-row'>
+                <div className='col-auto p-0 item-picture-col'>
+                  <img src='images\gyoza.png' className='item-picture-img'></img>
+                </div>
+                <div className='col item-info-col'>
+                  <div className='row item-name-row'>
+                    <div className='col item-name-col'>
+                      Name
+                    </div>
+                  </div>
+                  <div className='row item-description-row'>
+                    <div className='col item-description-col'>
+                      Description Description Description Description
+                    </div>
+                  </div>
+                  <div className='row item-buy-row'>
+                    <div className='col item-price-col'>
+                      Price
+                    </div>
+                    <div className='col d-flex item-add-col'>
+                      <button className='item-add-button' type='button'>
+                        Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='row item-row'>
+                <div className='col-auto p-0 item-picture-col'>
+                  <img src='images\gyoza.png' className='item-picture-img'></img>
+                </div>
+                <div className='col item-info-col'>
+                  <div className='row item-name-row'>
+                    <div className='col item-name-col'>
+                      Name
+                    </div>
+                  </div>
+                  <div className='row item-description-row'>
+                    <div className='col item-description-col'>
+                      Description Description Description Description
+                    </div>
+                  </div>
+                  <div className='row item-buy-row'>
+                    <div className='col item-price-col'>
+                      Price
+                    </div>
+                    <div className='col d-flex item-add-col'>
+                      <button className='item-add-button' type='button'>
+                        Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className='row item-row'>
                 <div className='col-auto p-0 item-picture-col'>
                   <img src='images\gyoza.png' className='item-picture-img'></img>
