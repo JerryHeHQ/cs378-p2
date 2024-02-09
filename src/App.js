@@ -83,10 +83,10 @@ function App() {
   return (
     <div className='container'>
       <div className='row' id='main-row'>
-        <div className='col' id='main-col'>
+        <div className='col d-flex flex-column align-items-center' id='main-col'>
 
           <div className='row' id='brand-row'>
-            <div className='col-auto' id='brand-logo-col'>
+            <div className='col-auto p-0' id='brand-logo-col'>
               <img src="logo192.png" id='brand-logo-img'></img>
             </div>
             <div className='col' id='brand-name-col'>
@@ -103,7 +103,7 @@ function App() {
               </div>
               <div className='row' id='motto-2-row'>
                 <div className='col' id='motto-2-col'>
-                  Motto 2 Motto 2 Motto 2
+                Motto 2 Motto 2 Motto 2
                 </div>
               </div>
             </div>
@@ -111,7 +111,7 @@ function App() {
 
           <div className='row' id='items-row'>
             <div className='col' id='items-col'>
-              <div className='row item-row'>
+            <div className='row item-row'>
                 <div className='col-auto p-0 item-picture-col'>
                   <img src='images\gyoza.png' className='item-picture-img'></img>
                 </div>
@@ -128,9 +128,9 @@ function App() {
                   </div>
                   <div className='row item-buy-row'>
                     <div className='col item-price-col'>
-                      Price
+                      $10.25
                     </div>
-                    <div className='col d-flex item-add-col'>
+                    <div className='col d-flex justify-content-end item-add-col'>
                       <button className='item-add-button' type='button'>
                         Add
                       </button>
@@ -157,7 +157,7 @@ function App() {
                     <div className='col item-price-col'>
                       Price
                     </div>
-                    <div className='col d-flex item-add-col'>
+                    <div className='col d-flex justify-content-end item-add-col'>
                       <button className='item-add-button' type='button'>
                         Add
                       </button>
@@ -184,7 +184,7 @@ function App() {
                     <div className='col item-price-col'>
                       Price
                     </div>
-                    <div className='col d-flex item-add-col'>
+                    <div className='col d-flex justify-content-end item-add-col'>
                       <button className='item-add-button' type='button'>
                         Add
                       </button>
@@ -211,7 +211,7 @@ function App() {
                     <div className='col item-price-col'>
                       Price
                     </div>
-                    <div className='col d-flex item-add-col'>
+                    <div className='col d-flex justify-content-end item-add-col'>
                       <button className='item-add-button' type='button'>
                         Add
                       </button>
@@ -238,7 +238,7 @@ function App() {
                     <div className='col item-price-col'>
                       Price
                     </div>
-                    <div className='col d-flex item-add-col'>
+                    <div className='col d-flex justify-content-end item-add-col'>
                       <button className='item-add-button' type='button'>
                         Add
                       </button>
@@ -265,7 +265,7 @@ function App() {
                     <div className='col item-price-col'>
                       Price
                     </div>
-                    <div className='col d-flex item-add-col'>
+                    <div className='col d-flex justify-content-end item-add-col'>
                       <button className='item-add-button' type='button'>
                         Add
                       </button>

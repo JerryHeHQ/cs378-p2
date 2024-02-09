@@ -3,42 +3,24 @@
   Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
 */
 
-#main-row {
-  height: 100vh;
-  align-items: center;
-}
-
-#main-col {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
 #brand-row {
-  justify-content: center;
+  max-height: 60px;
+  margin-top: 50px;
   align-items: end;
-  max-height: 3rem;
-  margin-top: 2.5rem;
-}
-
-#brand-logo-col {
-  padding: 0;
 }
 
 #brand-logo-img {
-  max-height: 3rem;
+  max-height: 60px;
   object-fit: cover;
 }
 
 #brand-name-col {
-  padding-right: 0;
-  padding-left: 10px;
-  font-weight: lighter;
-  font-size: x-large;
-  letter-spacing: 2px;
-  line-height: 100%;
-  margin-bottom: 0;
+  padding: 0 0 0 10px;
   font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: lighter;
+  line-height: 100%;
+  letter-spacing: 2px;
 }
 
 #brand-name-col span {
@@ -46,82 +28,68 @@
 }
 
 #mottos-row {
-  margin-top: 3rem;
-  margin-bottom: 4rem;
+  margin-top: 60px;
+  margin-bottom: 75px;
 }
-
 
 #motto-1-col {
   text-align: center;
-  font-weight: bold;
-  font-size: small;
-  color: tan;
   font-family: 'Dancing Script', cursive;
+  font-size: small;
+  font-weight: bold;
+  color: tan;
 }
 
 #motto-2-col {
   text-align: center;
-  font-size: larger;
-  color: gray;
+  font-size: 28px;
   font-weight: 500;
+  color: gray;
 }
 
 .item-row {
-  justify-content: center;
-  align-items: end;
+  margin: 0 0 5px 0 !important;
   padding: 15px;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  margin-bottom: 0.2rem;
 }
 
 .item-picture-img {
-  max-width: 5rem;
+  max-width: 100px;
   object-fit: fill;
   border-radius: 10px;
 }
 
 .item-info-col {
-  height: 5rem;
+  height: 100px;
+  padding-right: 0px !important;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-right: 0px !important;
 }
 
 .item-name-col {
-  font-weight: 500;
   font-size: small;
-  margin-bottom: 0;
-  line-height: 100%;
+  font-weight: 500;
 }
 
 .item-description-col {
-  font-weight: light;
   font-size: x-small;
-  margin-bottom: 0;
-  line-height: 100%;
+  font-weight: light;
+  line-height: 120%;
   color: gray;
 }
 
 .item-price-col {
   font-size: x-small;
   font-weight: 500;
-  margin: 0;
-}
-
-.item-add-col {
-  justify-content: end;
 }
 
 .item-add-button {
-  padding-block: 0px;
-  padding-inline: 12px;
+  padding-inline: 15px;
   border: 0px;
   border-radius: 12px;
   box-shadow: 0px 1px 2px 0px gray;
   font-size: x-small;
   font-weight: 500;
-  margin: 0;
+  line-height: 100%;
   color: black !important;
 }
